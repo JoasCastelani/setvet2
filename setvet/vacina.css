@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 5000px;
+}
+
+
+nav .logo{
+    color:rgb(0, 0, 0);
+    float:left;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    display: block;
+    padding: 14px 16px;
+}
+nav{
+background: #84ff6c;
+overflow: hidden;
+position: fixed;
+width: 100%;
+}
+
+
+nav a{
+    color:black;
+    float:right;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color:black;
+    color: #84ff6c;
+}
+
+img.add{
+    height: 100px;
+
+}
+img{
+    padding: 100px;
+    height: 30px;
+}
+
+img.proximo{
+    float: right;
+    margin-top: -320px;
+}
+h1{ color:black;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    display: inline;
+    padding: 14px 16px;
+    margin-left: -270px;
+}
+h2 {    color:black;
+        font-size: 25px;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        display: block;
+        padding: 14px 16px;
+        margin-left: 830px;
+}
+h3 {    color:black;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    padding: 14px 16px;
+    margin-left: 700px;
+}
