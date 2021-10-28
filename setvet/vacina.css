@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 100;
+    margin: 0;
+    
+}
+/*menu*/
+nav .logo{
+    color:rgb(255, 255, 255);
+    float:left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    display: block;
+    padding: 14px 16px;
+}
+nav{
+background: #006e34;
+overflow: hidden;
+position: fixed;
+width: 100%;
+}
+
+
+nav a{
+    color:rgb(255, 255, 255);
+    float:right;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    display: block;
+    padding: 14px 16px;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color:rgb(255, 255, 255);
+    color: #006e34;
+}
+
+img.add{
+    height: 100px;
+    align-items: center;
+    margin-left: 100px;
+
+}
+img{
+    padding: 100px;
+    height: 30px;
+}
+
+img.proximo{
+    float: right;
+    margin-top: 320px;
+}
+h1{ color:black;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    display: inline;
+    padding: 14px 16px;
+    margin-left: -270px;
+}
+h2 {    color:black;
+        font-size: 25px;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        display: block;
+        padding: 14px 16px;
+        margin-left: 830px;
+}
+h3 {    color:black;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    padding: 14px 16px;
+    margin-left: 700px;
+}
